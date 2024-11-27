@@ -20,5 +20,14 @@
         rgba(0, 0, 0, 0.5) 100%
       );
     }
+
+    figcaption {
+      position: absolute;
+      bottom: 0;
+      padding: 24px;
+      h2 {
+        margin-top: 8px;
+      }
+    }
   }
 }
