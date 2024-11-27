@@ -3,6 +3,22 @@
   img {
     height: 100%;
     object-fit: cover;
+  }
+
+  .sombra {
     border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      top: 50%;
+      background: linear-gradient(
+        180deg,
+        transparent 0%,
+        rgba(0, 0, 0, 0.5) 100%
+      );
+    }
   }
 }
