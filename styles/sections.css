@@ -25,6 +25,12 @@
       position: absolute;
       bottom: 0;
       padding: 24px;
+
+      /* Isso aqui só vai alterar o que tem lá dentro da class (.text.lg) */
+      &:has(.text-lg) {
+        padding: 14px;
+      }
+
       h2 {
         margin-top: 8px;
       }
