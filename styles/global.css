@@ -7,7 +7,7 @@
 :root {
   --brand-color-light: #475569;
   --brand-color-dark: #0f172a;
-  --bg-color: #9ca3af;
+  --bg-color: #020617;
   --stroke-color: #111827;
   --text-color-primary: #f3f4f6;
   --text-color-secondary: #e5e7eb;
@@ -40,4 +40,19 @@ h1,
 h2,
 h3 {
   font: inherit;
+}
+
+.grid {
+  display: grid;
+}
+
+/* Grid Flow Automático */
+.grid-flow-column {
+  grid-auto-flow: column;
+}
+
+.container {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 20px;
 }
