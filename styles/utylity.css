@@ -2,12 +2,12 @@
   display: grid;
 }
 
-/* Grid Flow Automático */
-.grid-flow-column {
+/* Grid flow automático */
+.grid-flow-col {
   grid-auto-flow: column;
 }
 
-.grid-column-2 {
+.grid-cols-2 {
   grid-template-columns: 1fr 1fr;
 }
 
